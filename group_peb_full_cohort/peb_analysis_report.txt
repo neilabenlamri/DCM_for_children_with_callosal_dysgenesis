@@ -1,0 +1,65 @@
+==========================================================================================
+PEB GROUP COMPARISON ANALYSIS
+==========================================================================================
+
+Research Question:
+  Which DCM connectivity parameters differ between CCD and TDC groups?
+
+Encoding:
+  TDC group = -1  (typically healthy/control)
+  CCD group = +1  (typically patient/case)
+  Intercept = grand mean across groups
+  Column 2 (CCD_minus_TDC) = group contrast effect
+
+==========================================================================================
+
+TASK: MDOD
+------------------------------------------------------------------------------------------
+  N subjects: 26
+  N DCM subject results: 26
+  Design columns: Mean, CCD_minus_TDC
+
+  ✓ BMA (Bayesian Model Averaging) results available
+
+TASK: MDOG
+------------------------------------------------------------------------------------------
+  N subjects: 26
+  N DCM subject results: 26
+  Design columns: Mean, CCD_minus_TDC
+
+  ✓ BMA (Bayesian Model Averaging) results available
+
+TASK: MGOD
+------------------------------------------------------------------------------------------
+  N subjects: 26
+  N DCM subject results: 26
+  Design columns: Mean, CCD_minus_TDC
+
+  ✓ BMA (Bayesian Model Averaging) results available
+
+TASK: MGOG
+------------------------------------------------------------------------------------------
+  N subjects: 26
+  N DCM subject results: 26
+  Design columns: Mean, CCD_minus_TDC
+
+  ✓ BMA (Bayesian Model Averaging) results available
+
+==========================================================================================
+INTERPRETATION GUIDE:
+
+  1. GROUP EFFECT (CCD_minus_TDC):
+     - If Mean ≠ 0 with small Std → group difference likely
+     - Positive = CCD group has stronger parameter
+     - Negative = TDC group has stronger parameter
+
+  2. FURTHER ANALYSIS IN MATLAB:
+     load('group_peb/PEB_MDOD_SENSORY_RELAY__UNC_FLEX.mat')
+     spm_dcm_peb_review(BMA_MDOD, GCM_MDOD)  % Interactive inspection
+
+  3. STATISTICAL INFERENCE:
+     - Use BMA output for family-wise inference
+     - Check Bayes factors for parameter importance
+     - Consider posterior probabilities > 0.95 as credible effects
+
+==========================================================================================

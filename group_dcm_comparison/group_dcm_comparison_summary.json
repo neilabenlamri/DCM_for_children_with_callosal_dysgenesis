@@ -1,0 +1,64 @@
+{
+  "data_root": "/media/lea/T7 Shield/derivatives_MNIcohort3",
+  "out_dir": "/media/lea/T7 Shield/PycharmProjects/MIPLAB/group_dcm_comparison",
+  "n_records": 104,
+  "n_subjects": 26,
+  "subjects": [
+    "sub-03",
+    "sub-04",
+    "sub-05",
+    "sub-06",
+    "sub-07",
+    "sub-08",
+    "sub-13",
+    "sub-14",
+    "sub-19",
+    "sub-20",
+    "sub-26",
+    "sub-31",
+    "sub-32",
+    "sub-33",
+    "sub-34",
+    "sub-41",
+    "sub-42",
+    "sub-43",
+    "sub-45",
+    "sub-51",
+    "sub-52",
+    "sub-54",
+    "sub-55",
+    "sub-56",
+    "sub-58",
+    "sub-63"
+  ],
+  "tasks": [
+    "MDOD",
+    "MDOG",
+    "MGOD",
+    "MGOG"
+  ],
+  "model_winner": {
+    "Label": "SENSORY_RELAY__UNC_FLEX",
+    "RFX_ExpectedFrequency": 0.54174744792326,
+    "RFX_ExceedanceProbability": 0.98701,
+    "DirichletAlpha": 60.67571416740512,
+    "FFX_Posterior": 1.0
+  },
+  "family_winners": {
+    "crossed_pathway": {
+      "Label": "SENSORY_RELAY",
+      "RFX_ExpectedFrequency": 0.5672540027537204,
+      "RFX_ExceedanceProbability": 0.98376,
+      "DirichletAlpha": 61.26343229740181,
+      "FFX_Posterior": 1.0
+    },
+    "uncrossed_policy": {
+      "Label": "FLEX",
+      "RFX_ExpectedFrequency": 0.9749593774690224,
+      "RFX_ExceedanceProbability": 1.0,
+      "DirichletAlpha": 103.34569401171639,
+      "FFX_Posterior": 1.0
+    }
+  },
+  "missing": []
+}

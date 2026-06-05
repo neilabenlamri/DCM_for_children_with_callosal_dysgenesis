@@ -1,0 +1,305 @@
+Task,Design,Parameter,Kind,Connection,Condition,Estimate,Pp,Direction,SelfConnection
+MDOD,Mean,"A(1,1)",Intrinsic A,M1_L → M1_L,,-1.3278551943193364,1.0,TDC > CCD,True
+MDOD,Mean,"A(2,2)",Intrinsic A,M1_R → M1_R,,-0.8184466655350913,1.0,TDC > CCD,True
+MDOD,Mean,"A(1,3)",Intrinsic A,A1_L → M1_L,,1.4596367188208073e-06,0.0,CCD > TDC,False
+MDOD,Mean,"A(3,3)",Intrinsic A,A1_L → A1_L,,-0.41344895619968636,1.0,TDC > CCD,True
+MDOD,Mean,"A(2,4)",Intrinsic A,A1_R → M1_R,,0.06536623415548516,0.7890877745385413,CCD > TDC,False
+MDOD,Mean,"A(4,4)",Intrinsic A,A1_R → A1_R,,0.15817971831591424,0.9672977127024643,CCD > TDC,True
+MDOD,Mean,"A(1,5)",Intrinsic A,V1_L → M1_L,,7.07808373759314e-07,0.0,CCD > TDC,False
+MDOD,Mean,"A(5,5)",Intrinsic A,V1_L → V1_L,,-0.4062253058872083,1.0,TDC > CCD,True
+MDOD,Mean,"A(2,6)",Intrinsic A,V1_R → M1_R,,1.3198317419962427e-07,0.0,CCD > TDC,False
+MDOD,Mean,"A(6,6)",Intrinsic A,V1_R → V1_R,,2.1295298925105472e-07,0.0,CCD > TDC,True
+MDOD,Mean,"B(2,1,1)",Modulatory B,M1_L → M1_R,"visual L, uncrossed",-2.7316071102885463e-07,0.0,TDC > CCD,False
+MDOD,Mean,"B(1,5,1)",Modulatory B,V1_L → M1_L,"visual L, uncrossed",-2.0546423848025428e-06,0.0,TDC > CCD,False
+MDOD,Mean,"B(2,5,1)",Modulatory B,V1_L → M1_R,"visual L, uncrossed",-2.011171227576405e-06,0.0,TDC > CCD,False
+MDOD,Mean,"B(6,5,1)",Modulatory B,V1_L → V1_R,"visual L, uncrossed",8.12288461083758e-07,0.0,CCD > TDC,False
+MDOD,Mean,"B(2,6,1)",Modulatory B,V1_R → M1_R,"visual L, uncrossed",6.955159391693521e-07,0.0,CCD > TDC,False
+MDOD,Mean,"B(1,2,2)",Modulatory B,M1_R → M1_L,"visual R, uncrossed",-6.422410206248936e-07,0.0,TDC > CCD,False
+MDOD,Mean,"B(1,5,2)",Modulatory B,V1_L → M1_L,"visual R, uncrossed",-1.0419220020483985e-06,0.0,TDC > CCD,False
+MDOD,Mean,"B(1,6,2)",Modulatory B,V1_R → M1_L,"visual R, uncrossed",4.3519161912953555e-07,0.0,CCD > TDC,False
+MDOD,Mean,"B(2,6,2)",Modulatory B,V1_R → M1_R,"visual R, uncrossed",-9.8317897584593e-07,0.0,TDC > CCD,False
+MDOD,Mean,"B(5,6,2)",Modulatory B,V1_R → V1_L,"visual R, uncrossed",0.4405536119905681,1.0,CCD > TDC,False
+MDOD,Mean,"B(2,1,3)",Modulatory B,M1_L → M1_R,"auditory L, uncrossed",-1.3974983263935834e-06,0.0,TDC > CCD,False
+MDOD,Mean,"B(1,3,3)",Modulatory B,A1_L → M1_L,"auditory L, uncrossed",6.619678959602623e-07,0.0,CCD > TDC,False
+MDOD,Mean,"B(2,3,3)",Modulatory B,A1_L → M1_R,"auditory L, uncrossed",-1.1758456372301421e-06,0.0,TDC > CCD,False
+MDOD,Mean,"B(4,3,3)",Modulatory B,A1_L → A1_R,"auditory L, uncrossed",2.4532567114492163e-07,0.0,CCD > TDC,False
+MDOD,Mean,"B(2,4,3)",Modulatory B,A1_R → M1_R,"auditory L, uncrossed",2.6590180773637175e-07,0.0,CCD > TDC,False
+MDOD,Mean,"B(1,2,4)",Modulatory B,M1_R → M1_L,"auditory R, uncrossed",-1.0548040663416615e-06,0.0,TDC > CCD,False
+MDOD,Mean,"B(1,3,4)",Modulatory B,A1_L → M1_L,"auditory R, uncrossed",8.888602805433724e-07,0.0,CCD > TDC,False
+MDOD,Mean,"B(1,4,4)",Modulatory B,A1_R → M1_L,"auditory R, uncrossed",-2.1076184116923113e-06,0.0,TDC > CCD,False
+MDOD,Mean,"B(2,4,4)",Modulatory B,A1_R → M1_R,"auditory R, uncrossed",-0.15341959903285524,0.6009743678287887,TDC > CCD,False
+MDOD,Mean,"B(3,4,4)",Modulatory B,A1_R → A1_L,"auditory R, uncrossed",4.3111056817047125e-07,0.0,CCD > TDC,False
+MDOD,Mean,"B(6,5,5)",Modulatory B,V1_L → V1_R,"visual L, crossed",1.194575177826492,1.0,CCD > TDC,False
+MDOD,Mean,"B(2,6,5)",Modulatory B,V1_R → M1_R,"visual L, crossed",1.7357630490683385e-06,0.0,CCD > TDC,False
+MDOD,Mean,"B(1,5,6)",Modulatory B,V1_L → M1_L,"visual R, crossed",2.337689402300593e-06,0.0,CCD > TDC,False
+MDOD,Mean,"B(5,6,6)",Modulatory B,V1_R → V1_L,"visual R, crossed",2.806983973845554e-07,0.0,CCD > TDC,False
+MDOD,Mean,"B(4,3,7)",Modulatory B,A1_L → A1_R,"auditory L, crossed",-6.427735201390781e-07,0.0,TDC > CCD,False
+MDOD,Mean,"B(2,4,7)",Modulatory B,A1_R → M1_R,"auditory L, crossed",-1.6154717154598466e-06,0.0,TDC > CCD,False
+MDOD,Mean,"B(1,3,8)",Modulatory B,A1_L → M1_L,"auditory R, crossed",-5.894365517820179e-07,0.0,TDC > CCD,False
+MDOD,Mean,"B(3,4,8)",Modulatory B,A1_R → A1_L,"auditory R, crossed",3.1736569148885874e-07,0.0,CCD > TDC,False
+MDOD,CCD_minus_TDC,"A(1,1)",Intrinsic A,M1_L → M1_L,,0.21836353767103114,1.0,CCD > TDC,True
+MDOD,CCD_minus_TDC,"A(2,2)",Intrinsic A,M1_R → M1_R,,0.3394382266720212,1.0,CCD > TDC,True
+MDOD,CCD_minus_TDC,"A(1,3)",Intrinsic A,A1_L → M1_L,,-1.2832452005183988e-07,0.0,TDC > CCD,False
+MDOD,CCD_minus_TDC,"A(3,3)",Intrinsic A,A1_L → A1_L,,0.14777059539990897,1.0,CCD > TDC,True
+MDOD,CCD_minus_TDC,"A(2,4)",Intrinsic A,A1_R → M1_R,,0.051733116312720165,0.6996231830005885,CCD > TDC,False
+MDOD,CCD_minus_TDC,"A(4,4)",Intrinsic A,A1_R → A1_R,,-0.22298432356683692,1.0,TDC > CCD,True
+MDOD,CCD_minus_TDC,"A(1,5)",Intrinsic A,V1_L → M1_L,,0.03514490222257553,0.7888495194774819,CCD > TDC,False
+MDOD,CCD_minus_TDC,"A(5,5)",Intrinsic A,V1_L → V1_L,,0.25391919898517956,1.0,CCD > TDC,True
+MDOD,CCD_minus_TDC,"A(2,6)",Intrinsic A,V1_R → M1_R,,0.06435539208953153,1.0,CCD > TDC,False
+MDOD,CCD_minus_TDC,"A(6,6)",Intrinsic A,V1_R → V1_R,,1.1095919865287767e-06,0.0,CCD > TDC,True
+MDOD,CCD_minus_TDC,"B(2,1,1)",Modulatory B,M1_L → M1_R,"visual L, uncrossed",1.1779994887691982e-07,0.0,CCD > TDC,False
+MDOD,CCD_minus_TDC,"B(1,5,1)",Modulatory B,V1_L → M1_L,"visual L, uncrossed",-2.7455435420301353e-06,0.0,TDC > CCD,False
+MDOD,CCD_minus_TDC,"B(2,5,1)",Modulatory B,V1_L → M1_R,"visual L, uncrossed",-5.967602808108579e-07,0.0,TDC > CCD,False
+MDOD,CCD_minus_TDC,"B(6,5,1)",Modulatory B,V1_L → V1_R,"visual L, uncrossed",-5.913190098872144e-07,0.0,TDC > CCD,False
+MDOD,CCD_minus_TDC,"B(2,6,1)",Modulatory B,V1_R → M1_R,"visual L, uncrossed",-1.1850217926131713e-06,0.0,TDC > CCD,False
+MDOD,CCD_minus_TDC,"B(1,2,2)",Modulatory B,M1_R → M1_L,"visual R, uncrossed",8.555625564362146e-07,0.0,CCD > TDC,False
+MDOD,CCD_minus_TDC,"B(1,5,2)",Modulatory B,V1_L → M1_L,"visual R, uncrossed",1.9547978014823722e-07,0.0,CCD > TDC,False
+MDOD,CCD_minus_TDC,"B(1,6,2)",Modulatory B,V1_R → M1_L,"visual R, uncrossed",-0.11889810191404687,0.529525570951825,TDC > CCD,False
+MDOD,CCD_minus_TDC,"B(2,6,2)",Modulatory B,V1_R → M1_R,"visual R, uncrossed",-0.28776036190563975,1.0,TDC > CCD,False
+MDOD,CCD_minus_TDC,"B(5,6,2)",Modulatory B,V1_R → V1_L,"visual R, uncrossed",6.247086180295877e-07,0.0,CCD > TDC,False
+MDOD,CCD_minus_TDC,"B(2,1,3)",Modulatory B,M1_L → M1_R,"auditory L, uncrossed",-1.2818048388205258e-06,0.0,TDC > CCD,False
+MDOD,CCD_minus_TDC,"B(1,3,3)",Modulatory B,A1_L → M1_L,"auditory L, uncrossed",9.255980888413598e-08,0.0,CCD > TDC,False
+MDOD,CCD_minus_TDC,"B(2,3,3)",Modulatory B,A1_L → M1_R,"auditory L, uncrossed",1.3280801371914204e-07,0.0,CCD > TDC,False
+MDOD,CCD_minus_TDC,"B(4,3,3)",Modulatory B,A1_L → A1_R,"auditory L, uncrossed",1.4854127793395796e-06,0.0,CCD > TDC,False
+MDOD,CCD_minus_TDC,"B(2,4,3)",Modulatory B,A1_R → M1_R,"auditory L, uncrossed",-1.4147664505117261e-06,0.0,TDC > CCD,False
+MDOD,CCD_minus_TDC,"B(1,2,4)",Modulatory B,M1_R → M1_L,"auditory R, uncrossed",-5.449355250265955e-07,0.0,TDC > CCD,False
+MDOD,CCD_minus_TDC,"B(1,3,4)",Modulatory B,A1_L → M1_L,"auditory R, uncrossed",-1.859616871371043e-06,0.0,TDC > CCD,False
+MDOD,CCD_minus_TDC,"B(1,4,4)",Modulatory B,A1_R → M1_L,"auditory R, uncrossed",-7.473217332683485e-07,0.0,TDC > CCD,False
+MDOD,CCD_minus_TDC,"B(2,4,4)",Modulatory B,A1_R → M1_R,"auditory R, uncrossed",-0.11117943960329357,0.47252445866917736,TDC > CCD,False
+MDOD,CCD_minus_TDC,"B(3,4,4)",Modulatory B,A1_R → A1_L,"auditory R, uncrossed",-9.825202145674295e-07,0.0,TDC > CCD,False
+MDOD,CCD_minus_TDC,"B(6,5,5)",Modulatory B,V1_L → V1_R,"visual L, crossed",5.986187544748768e-07,0.0,CCD > TDC,False
+MDOD,CCD_minus_TDC,"B(2,6,5)",Modulatory B,V1_R → M1_R,"visual L, crossed",-0.2507073719579041,0.9546138690208968,TDC > CCD,False
+MDOD,CCD_minus_TDC,"B(1,5,6)",Modulatory B,V1_L → M1_L,"visual R, crossed",4.0121329597444684e-07,0.0,CCD > TDC,False
+MDOD,CCD_minus_TDC,"B(5,6,6)",Modulatory B,V1_R → V1_L,"visual R, crossed",-1.4598079501272425e-07,0.0,TDC > CCD,False
+MDOD,CCD_minus_TDC,"B(4,3,7)",Modulatory B,A1_L → A1_R,"auditory L, crossed",9.86165987387843e-07,0.0,CCD > TDC,False
+MDOD,CCD_minus_TDC,"B(2,4,7)",Modulatory B,A1_R → M1_R,"auditory L, crossed",4.87900203420624e-07,0.0,CCD > TDC,False
+MDOD,CCD_minus_TDC,"B(1,3,8)",Modulatory B,A1_L → M1_L,"auditory R, crossed",-2.1905737023099467e-06,0.0,TDC > CCD,False
+MDOD,CCD_minus_TDC,"B(3,4,8)",Modulatory B,A1_R → A1_L,"auditory R, crossed",1.235450607462345e-07,0.0,CCD > TDC,False
+MDOG,Mean,"A(1,1)",Intrinsic A,M1_L → M1_L,,-1.255984214908076,1.0,TDC > CCD,True
+MDOG,Mean,"A(2,2)",Intrinsic A,M1_R → M1_R,,-0.7220201390370794,1.0,TDC > CCD,True
+MDOG,Mean,"A(1,3)",Intrinsic A,A1_L → M1_L,,-1.5026184354009474e-06,0.0,TDC > CCD,False
+MDOG,Mean,"A(3,3)",Intrinsic A,A1_L → A1_L,,0.6828583835081564,1.0,CCD > TDC,True
+MDOG,Mean,"A(2,4)",Intrinsic A,A1_R → M1_R,,0.047445262485449814,0.7993221171205261,CCD > TDC,False
+MDOG,Mean,"A(4,4)",Intrinsic A,A1_R → A1_R,,-0.4962995238653196,1.0,TDC > CCD,True
+MDOG,Mean,"A(1,5)",Intrinsic A,V1_L → M1_L,,-1.3886531135245405e-07,0.0,TDC > CCD,False
+MDOG,Mean,"A(5,5)",Intrinsic A,V1_L → V1_L,,-0.2939479411557286,1.0,TDC > CCD,True
+MDOG,Mean,"A(2,6)",Intrinsic A,V1_R → M1_R,,-2.4583620733387105e-07,0.0,TDC > CCD,False
+MDOG,Mean,"A(6,6)",Intrinsic A,V1_R → V1_R,,-0.3048083938592369,1.0,TDC > CCD,True
+MDOG,Mean,"B(2,1,1)",Modulatory B,M1_L → M1_R,"visual L, uncrossed",-5.689133050362716e-07,0.0,TDC > CCD,False
+MDOG,Mean,"B(1,5,1)",Modulatory B,V1_L → M1_L,"visual L, uncrossed",2.3195586991057995e-06,0.0,CCD > TDC,False
+MDOG,Mean,"B(2,5,1)",Modulatory B,V1_L → M1_R,"visual L, uncrossed",-1.0359897322545865e-06,0.0,TDC > CCD,False
+MDOG,Mean,"B(6,5,1)",Modulatory B,V1_L → V1_R,"visual L, uncrossed",-6.523288844205999e-07,0.0,TDC > CCD,False
+MDOG,Mean,"B(2,6,1)",Modulatory B,V1_R → M1_R,"visual L, uncrossed",6.034322187835297e-07,0.0,CCD > TDC,False
+MDOG,Mean,"B(1,2,2)",Modulatory B,M1_R → M1_L,"visual R, uncrossed",-1.4354428588446932e-07,0.0,TDC > CCD,False
+MDOG,Mean,"B(1,5,2)",Modulatory B,V1_L → M1_L,"visual R, uncrossed",8.914844035364176e-07,0.0,CCD > TDC,False
+MDOG,Mean,"B(1,6,2)",Modulatory B,V1_R → M1_L,"visual R, uncrossed",1.4374993540330046e-06,0.0,CCD > TDC,False
+MDOG,Mean,"B(2,6,2)",Modulatory B,V1_R → M1_R,"visual R, uncrossed",1.2910856370703464e-06,0.0,CCD > TDC,False
+MDOG,Mean,"B(5,6,2)",Modulatory B,V1_R → V1_L,"visual R, uncrossed",9.0829001807689e-07,0.0,CCD > TDC,False
+MDOG,Mean,"B(2,1,3)",Modulatory B,M1_L → M1_R,"auditory L, uncrossed",-1.4156018131086637e-06,0.0,TDC > CCD,False
+MDOG,Mean,"B(1,3,3)",Modulatory B,A1_L → M1_L,"auditory L, uncrossed",-1.1763302916415912e-06,0.0,TDC > CCD,False
+MDOG,Mean,"B(2,3,3)",Modulatory B,A1_L → M1_R,"auditory L, uncrossed",6.806622396673362e-07,0.0,CCD > TDC,False
+MDOG,Mean,"B(4,3,3)",Modulatory B,A1_L → A1_R,"auditory L, uncrossed",-1.233674542582422e-06,0.0,TDC > CCD,False
+MDOG,Mean,"B(2,4,3)",Modulatory B,A1_R → M1_R,"auditory L, uncrossed",1.0378733596344004e-06,0.0,CCD > TDC,False
+MDOG,Mean,"B(1,2,4)",Modulatory B,M1_R → M1_L,"auditory R, uncrossed",-1.2487995440471732e-06,0.0,TDC > CCD,False
+MDOG,Mean,"B(1,3,4)",Modulatory B,A1_L → M1_L,"auditory R, uncrossed",-1.2362972172175624e-06,0.0,TDC > CCD,False
+MDOG,Mean,"B(1,4,4)",Modulatory B,A1_R → M1_L,"auditory R, uncrossed",-7.584078540705635e-07,0.0,TDC > CCD,False
+MDOG,Mean,"B(2,4,4)",Modulatory B,A1_R → M1_R,"auditory R, uncrossed",1.0101569051291756e-07,0.0,CCD > TDC,False
+MDOG,Mean,"B(3,4,4)",Modulatory B,A1_R → A1_L,"auditory R, uncrossed",-1.288937641075614e-07,0.0,TDC > CCD,False
+MDOG,Mean,"B(6,5,5)",Modulatory B,V1_L → V1_R,"visual L, crossed",-1.6422891795759036e-07,0.0,TDC > CCD,False
+MDOG,Mean,"B(2,6,5)",Modulatory B,V1_R → M1_R,"visual L, crossed",5.368137528417952e-07,0.0,CCD > TDC,False
+MDOG,Mean,"B(1,5,6)",Modulatory B,V1_L → M1_L,"visual R, crossed",-2.9701862759666477e-07,0.0,TDC > CCD,False
+MDOG,Mean,"B(5,6,6)",Modulatory B,V1_R → V1_L,"visual R, crossed",2.7053921392511963e-07,0.0,CCD > TDC,False
+MDOG,Mean,"B(4,3,7)",Modulatory B,A1_L → A1_R,"auditory L, crossed",-0.35639497027612566,0.9894755961209422,TDC > CCD,False
+MDOG,Mean,"B(2,4,7)",Modulatory B,A1_R → M1_R,"auditory L, crossed",-1.8600312393300736e-06,0.0,TDC > CCD,False
+MDOG,Mean,"B(1,3,8)",Modulatory B,A1_L → M1_L,"auditory R, crossed",2.4818180261576316e-07,0.0,CCD > TDC,False
+MDOG,Mean,"B(3,4,8)",Modulatory B,A1_R → A1_L,"auditory R, crossed",-5.601677804592672e-07,0.0,TDC > CCD,False
+MDOG,CCD_minus_TDC,"A(1,1)",Intrinsic A,M1_L → M1_L,,0.2991636737291952,1.0,CCD > TDC,True
+MDOG,CCD_minus_TDC,"A(2,2)",Intrinsic A,M1_R → M1_R,,0.13345340713434586,0.9439365958755278,CCD > TDC,True
+MDOG,CCD_minus_TDC,"A(1,3)",Intrinsic A,A1_L → M1_L,,1.7114235175177551e-06,0.0,CCD > TDC,False
+MDOG,CCD_minus_TDC,"A(3,3)",Intrinsic A,A1_L → A1_L,,1.0689739241839969e-06,0.0,CCD > TDC,True
+MDOG,CCD_minus_TDC,"A(2,4)",Intrinsic A,A1_R → M1_R,,-0.1067120181089794,0.9991657316097136,TDC > CCD,False
+MDOG,CCD_minus_TDC,"A(4,4)",Intrinsic A,A1_R → A1_R,,0.28510495557190685,1.0,CCD > TDC,True
+MDOG,CCD_minus_TDC,"A(1,5)",Intrinsic A,V1_L → M1_L,,-2.210883792314738e-06,0.0,TDC > CCD,False
+MDOG,CCD_minus_TDC,"A(5,5)",Intrinsic A,V1_L → V1_L,,-1.0300888924368226e-06,0.0,TDC > CCD,True
+MDOG,CCD_minus_TDC,"A(2,6)",Intrinsic A,V1_R → M1_R,,4.643409721584381e-07,0.0,CCD > TDC,False
+MDOG,CCD_minus_TDC,"A(6,6)",Intrinsic A,V1_R → V1_R,,9.330870649828064e-07,0.0,CCD > TDC,True
+MDOG,CCD_minus_TDC,"B(2,1,1)",Modulatory B,M1_L → M1_R,"visual L, uncrossed",-1.1983008124948267e-06,0.0,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(1,5,1)",Modulatory B,V1_L → M1_L,"visual L, uncrossed",1.031288994082654e-06,0.0,CCD > TDC,False
+MDOG,CCD_minus_TDC,"B(2,5,1)",Modulatory B,V1_L → M1_R,"visual L, uncrossed",2.6796317893558655e-07,0.0,CCD > TDC,False
+MDOG,CCD_minus_TDC,"B(6,5,1)",Modulatory B,V1_L → V1_R,"visual L, uncrossed",8.912548154434e-07,0.0,CCD > TDC,False
+MDOG,CCD_minus_TDC,"B(2,6,1)",Modulatory B,V1_R → M1_R,"visual L, uncrossed",9.16593573041271e-07,0.0,CCD > TDC,False
+MDOG,CCD_minus_TDC,"B(1,2,2)",Modulatory B,M1_R → M1_L,"visual R, uncrossed",8.477623421592348e-07,0.0,CCD > TDC,False
+MDOG,CCD_minus_TDC,"B(1,5,2)",Modulatory B,V1_L → M1_L,"visual R, uncrossed",0.3413854531642776,0.9025364405699023,CCD > TDC,False
+MDOG,CCD_minus_TDC,"B(1,6,2)",Modulatory B,V1_R → M1_L,"visual R, uncrossed",-0.2940066132169621,0.9059538845170325,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(2,6,2)",Modulatory B,V1_R → M1_R,"visual R, uncrossed",-7.940155107256542e-07,0.0,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(5,6,2)",Modulatory B,V1_R → V1_L,"visual R, uncrossed",-0.5672305576892027,1.0,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(2,1,3)",Modulatory B,M1_L → M1_R,"auditory L, uncrossed",2.7936889659216826e-07,0.0,CCD > TDC,False
+MDOG,CCD_minus_TDC,"B(1,3,3)",Modulatory B,A1_L → M1_L,"auditory L, uncrossed",1.2578700124425535e-06,0.0,CCD > TDC,False
+MDOG,CCD_minus_TDC,"B(2,3,3)",Modulatory B,A1_L → M1_R,"auditory L, uncrossed",-7.155032328386665e-08,0.0,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(4,3,3)",Modulatory B,A1_L → A1_R,"auditory L, uncrossed",-9.002744205706261e-07,0.0,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(2,4,3)",Modulatory B,A1_R → M1_R,"auditory L, uncrossed",-3.12628922228424e-07,0.0,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(1,2,4)",Modulatory B,M1_R → M1_L,"auditory R, uncrossed",-7.720304836359637e-08,0.0,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(1,3,4)",Modulatory B,A1_L → M1_L,"auditory R, uncrossed",-8.604987891706632e-08,0.0,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(1,4,4)",Modulatory B,A1_R → M1_L,"auditory R, uncrossed",-1.5725404429094088e-06,0.0,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(2,4,4)",Modulatory B,A1_R → M1_R,"auditory R, uncrossed",-2.6102567256702405e-07,0.0,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(3,4,4)",Modulatory B,A1_R → A1_L,"auditory R, uncrossed",8.9172756778549e-07,0.0,CCD > TDC,False
+MDOG,CCD_minus_TDC,"B(6,5,5)",Modulatory B,V1_L → V1_R,"visual L, crossed",-0.6069621823372006,0.9875054527763286,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(2,6,5)",Modulatory B,V1_R → M1_R,"visual L, crossed",1.0730813342934503e-06,0.0,CCD > TDC,False
+MDOG,CCD_minus_TDC,"B(1,5,6)",Modulatory B,V1_L → M1_L,"visual R, crossed",-9.360603777640821e-07,0.0,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(5,6,6)",Modulatory B,V1_R → V1_L,"visual R, crossed",-1.1231237450234611e-07,0.0,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(4,3,7)",Modulatory B,A1_L → A1_R,"auditory L, crossed",-6.841235523297852e-07,0.0,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(2,4,7)",Modulatory B,A1_R → M1_R,"auditory L, crossed",0.37282689524801227,0.9983659545527368,CCD > TDC,False
+MDOG,CCD_minus_TDC,"B(1,3,8)",Modulatory B,A1_L → M1_L,"auditory R, crossed",-3.738244437282093e-07,0.0,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(3,4,8)",Modulatory B,A1_R → A1_L,"auditory R, crossed",3.249658222166836e-08,0.0,CCD > TDC,False
+MGOD,Mean,"A(1,1)",Intrinsic A,M1_L → M1_L,,-1.0568486055126884,1.0,TDC > CCD,True
+MGOD,Mean,"A(2,2)",Intrinsic A,M1_R → M1_R,,-1.326019515400977,1.0,TDC > CCD,True
+MGOD,Mean,"A(1,3)",Intrinsic A,A1_L → M1_L,,7.500139129537238e-07,0.0,CCD > TDC,False
+MGOD,Mean,"A(3,3)",Intrinsic A,A1_L → A1_L,,-0.2213849403532451,1.0,TDC > CCD,True
+MGOD,Mean,"A(2,4)",Intrinsic A,A1_R → M1_R,,2.2913146864031742e-06,0.0,CCD > TDC,False
+MGOD,Mean,"A(4,4)",Intrinsic A,A1_R → A1_R,,2.191550836014274e-07,0.0,CCD > TDC,True
+MGOD,Mean,"A(1,5)",Intrinsic A,V1_L → M1_L,,6.774932045648773e-07,0.0,CCD > TDC,False
+MGOD,Mean,"A(5,5)",Intrinsic A,V1_L → V1_L,,-0.13467440621720456,0.9593092305249489,TDC > CCD,True
+MGOD,Mean,"A(2,6)",Intrinsic A,V1_R → M1_R,,2.713183684551237e-06,0.0,CCD > TDC,False
+MGOD,Mean,"A(6,6)",Intrinsic A,V1_R → V1_R,,-0.08902599494431977,0.8242890147648471,TDC > CCD,True
+MGOD,Mean,"B(2,1,1)",Modulatory B,M1_L → M1_R,"visual L, uncrossed",-0.6915085128185615,1.0,TDC > CCD,False
+MGOD,Mean,"B(1,5,1)",Modulatory B,V1_L → M1_L,"visual L, uncrossed",-3.899688826700583e-07,0.0,TDC > CCD,False
+MGOD,Mean,"B(2,5,1)",Modulatory B,V1_L → M1_R,"visual L, uncrossed",-3.476301849081061e-07,0.0,TDC > CCD,False
+MGOD,Mean,"B(6,5,1)",Modulatory B,V1_L → V1_R,"visual L, uncrossed",0.7407687958204568,1.0,CCD > TDC,False
+MGOD,Mean,"B(2,6,1)",Modulatory B,V1_R → M1_R,"visual L, uncrossed",0.7600441671813518,1.0,CCD > TDC,False
+MGOD,Mean,"B(1,2,2)",Modulatory B,M1_R → M1_L,"visual R, uncrossed",-5.595583156180263e-07,0.0,TDC > CCD,False
+MGOD,Mean,"B(1,5,2)",Modulatory B,V1_L → M1_L,"visual R, uncrossed",-7.437147339611254e-07,0.0,TDC > CCD,False
+MGOD,Mean,"B(1,6,2)",Modulatory B,V1_R → M1_L,"visual R, uncrossed",-1.2994258400857237e-06,0.0,TDC > CCD,False
+MGOD,Mean,"B(2,6,2)",Modulatory B,V1_R → M1_R,"visual R, uncrossed",9.235389218875629e-07,0.0,CCD > TDC,False
+MGOD,Mean,"B(5,6,2)",Modulatory B,V1_R → V1_L,"visual R, uncrossed",-2.058596222606458e-06,0.0,TDC > CCD,False
+MGOD,Mean,"B(2,1,3)",Modulatory B,M1_L → M1_R,"auditory L, uncrossed",-1.5948610840338814e-07,0.0,TDC > CCD,False
+MGOD,Mean,"B(1,3,3)",Modulatory B,A1_L → M1_L,"auditory L, uncrossed",-0.7464884279200643,0.9491438725139257,TDC > CCD,False
+MGOD,Mean,"B(2,3,3)",Modulatory B,A1_L → M1_R,"auditory L, uncrossed",-0.5315716037198096,0.6439063237098678,TDC > CCD,False
+MGOD,Mean,"B(4,3,3)",Modulatory B,A1_L → A1_R,"auditory L, uncrossed",-1.5546703847435463e-07,0.0,TDC > CCD,False
+MGOD,Mean,"B(2,4,3)",Modulatory B,A1_R → M1_R,"auditory L, uncrossed",4.655882696039091e-07,0.0,CCD > TDC,False
+MGOD,Mean,"B(1,2,4)",Modulatory B,M1_R → M1_L,"auditory R, uncrossed",4.835338753691684e-07,0.0,CCD > TDC,False
+MGOD,Mean,"B(1,3,4)",Modulatory B,A1_L → M1_L,"auditory R, uncrossed",8.220996401192373e-07,0.0,CCD > TDC,False
+MGOD,Mean,"B(1,4,4)",Modulatory B,A1_R → M1_L,"auditory R, uncrossed",-8.64702820041814e-07,0.0,TDC > CCD,False
+MGOD,Mean,"B(2,4,4)",Modulatory B,A1_R → M1_R,"auditory R, uncrossed",-8.834113135651249e-07,0.0,TDC > CCD,False
+MGOD,Mean,"B(3,4,4)",Modulatory B,A1_R → A1_L,"auditory R, uncrossed",2.254445319481093e-06,0.0,CCD > TDC,False
+MGOD,Mean,"B(6,5,5)",Modulatory B,V1_L → V1_R,"visual L, crossed",4.5827531603137823e-07,0.0,CCD > TDC,False
+MGOD,Mean,"B(2,6,5)",Modulatory B,V1_R → M1_R,"visual L, crossed",1.1047335182601577e-06,0.0,CCD > TDC,False
+MGOD,Mean,"B(1,5,6)",Modulatory B,V1_L → M1_L,"visual R, crossed",0.10365648619598357,0.5925798008041491,CCD > TDC,False
+MGOD,Mean,"B(5,6,6)",Modulatory B,V1_R → V1_L,"visual R, crossed",0.712215302945588,1.0,CCD > TDC,False
+MGOD,Mean,"B(4,3,7)",Modulatory B,A1_L → A1_R,"auditory L, crossed",-1.0100653483386765e-06,0.0,TDC > CCD,False
+MGOD,Mean,"B(2,4,7)",Modulatory B,A1_R → M1_R,"auditory L, crossed",-4.7064307653345137e-07,0.0,TDC > CCD,False
+MGOD,Mean,"B(1,3,8)",Modulatory B,A1_L → M1_L,"auditory R, crossed",2.753315525146698e-07,0.0,CCD > TDC,False
+MGOD,Mean,"B(3,4,8)",Modulatory B,A1_R → A1_L,"auditory R, crossed",0.477888902916618,1.0,CCD > TDC,False
+MGOD,CCD_minus_TDC,"A(1,1)",Intrinsic A,M1_L → M1_L,,0.16542233239861076,0.9874035069347706,CCD > TDC,True
+MGOD,CCD_minus_TDC,"A(2,2)",Intrinsic A,M1_R → M1_R,,0.16297687435247996,1.0,CCD > TDC,True
+MGOD,CCD_minus_TDC,"A(1,3)",Intrinsic A,A1_L → M1_L,,-0.26879221080754867,1.0,TDC > CCD,False
+MGOD,CCD_minus_TDC,"A(3,3)",Intrinsic A,A1_L → A1_L,,-0.14361637166412564,0.9361983483076964,TDC > CCD,True
+MGOD,CCD_minus_TDC,"A(2,4)",Intrinsic A,A1_R → M1_R,,1.2129759025379166e-06,0.0,CCD > TDC,False
+MGOD,CCD_minus_TDC,"A(4,4)",Intrinsic A,A1_R → A1_R,,9.969936517427252e-07,0.0,CCD > TDC,True
+MGOD,CCD_minus_TDC,"A(1,5)",Intrinsic A,V1_L → M1_L,,1.27055326591279e-06,0.0,CCD > TDC,False
+MGOD,CCD_minus_TDC,"A(5,5)",Intrinsic A,V1_L → V1_L,,0.19103475623357188,1.0,CCD > TDC,True
+MGOD,CCD_minus_TDC,"A(2,6)",Intrinsic A,V1_R → M1_R,,3.040206395366126e-06,0.0,CCD > TDC,False
+MGOD,CCD_minus_TDC,"A(6,6)",Intrinsic A,V1_R → V1_R,,-7.999649936162642e-09,0.0,TDC > CCD,True
+MGOD,CCD_minus_TDC,"B(2,1,1)",Modulatory B,M1_L → M1_R,"visual L, uncrossed",-0.6055325986567119,1.0,TDC > CCD,False
+MGOD,CCD_minus_TDC,"B(1,5,1)",Modulatory B,V1_L → M1_L,"visual L, uncrossed",1.348644440293504e-06,0.0,CCD > TDC,False
+MGOD,CCD_minus_TDC,"B(2,5,1)",Modulatory B,V1_L → M1_R,"visual L, uncrossed",3.5239362343304835e-07,0.0,CCD > TDC,False
+MGOD,CCD_minus_TDC,"B(6,5,1)",Modulatory B,V1_L → V1_R,"visual L, uncrossed",-1.1572167193270811e-07,0.0,TDC > CCD,False
+MGOD,CCD_minus_TDC,"B(2,6,1)",Modulatory B,V1_R → M1_R,"visual L, uncrossed",0.5909909250507862,1.0,CCD > TDC,False
+MGOD,CCD_minus_TDC,"B(1,2,2)",Modulatory B,M1_R → M1_L,"visual R, uncrossed",1.118064053244159e-06,0.0,CCD > TDC,False
+MGOD,CCD_minus_TDC,"B(1,5,2)",Modulatory B,V1_L → M1_L,"visual R, uncrossed",1.5163805377251978e-07,0.0,CCD > TDC,False
+MGOD,CCD_minus_TDC,"B(1,6,2)",Modulatory B,V1_R → M1_L,"visual R, uncrossed",-1.4262803068089998e-07,0.0,TDC > CCD,False
+MGOD,CCD_minus_TDC,"B(2,6,2)",Modulatory B,V1_R → M1_R,"visual R, uncrossed",-8.345325983539759e-07,0.0,TDC > CCD,False
+MGOD,CCD_minus_TDC,"B(5,6,2)",Modulatory B,V1_R → V1_L,"visual R, uncrossed",3.212921164081236e-07,0.0,CCD > TDC,False
+MGOD,CCD_minus_TDC,"B(2,1,3)",Modulatory B,M1_L → M1_R,"auditory L, uncrossed",-6.208337065706764e-09,0.0,TDC > CCD,False
+MGOD,CCD_minus_TDC,"B(1,3,3)",Modulatory B,A1_L → M1_L,"auditory L, uncrossed",-5.084194573830874e-07,0.0,TDC > CCD,False
+MGOD,CCD_minus_TDC,"B(2,3,3)",Modulatory B,A1_L → M1_R,"auditory L, uncrossed",0.5276182299112152,0.6439063237098692,CCD > TDC,False
+MGOD,CCD_minus_TDC,"B(4,3,3)",Modulatory B,A1_L → A1_R,"auditory L, uncrossed",3.1198486030748436e-07,0.0,CCD > TDC,False
+MGOD,CCD_minus_TDC,"B(2,4,3)",Modulatory B,A1_R → M1_R,"auditory L, uncrossed",-1.4114928843745802e-06,0.0,TDC > CCD,False
+MGOD,CCD_minus_TDC,"B(1,2,4)",Modulatory B,M1_R → M1_L,"auditory R, uncrossed",1.0994076355306575e-06,0.0,CCD > TDC,False
+MGOD,CCD_minus_TDC,"B(1,3,4)",Modulatory B,A1_L → M1_L,"auditory R, uncrossed",-3.9043983416667954e-07,0.0,TDC > CCD,False
+MGOD,CCD_minus_TDC,"B(1,4,4)",Modulatory B,A1_R → M1_L,"auditory R, uncrossed",-8.642440818309065e-07,0.0,TDC > CCD,False
+MGOD,CCD_minus_TDC,"B(2,4,4)",Modulatory B,A1_R → M1_R,"auditory R, uncrossed",-1.434518041443981e-07,0.0,TDC > CCD,False
+MGOD,CCD_minus_TDC,"B(3,4,4)",Modulatory B,A1_R → A1_L,"auditory R, uncrossed",-7.908087465930375e-07,0.0,TDC > CCD,False
+MGOD,CCD_minus_TDC,"B(6,5,5)",Modulatory B,V1_L → V1_R,"visual L, crossed",-1.9725175644711336e-06,0.0,TDC > CCD,False
+MGOD,CCD_minus_TDC,"B(2,6,5)",Modulatory B,V1_R → M1_R,"visual L, crossed",1.032904861726425e-07,0.0,CCD > TDC,False
+MGOD,CCD_minus_TDC,"B(1,5,6)",Modulatory B,V1_L → M1_L,"visual R, crossed",1.104731885795023e-06,0.0,CCD > TDC,False
+MGOD,CCD_minus_TDC,"B(5,6,6)",Modulatory B,V1_R → V1_L,"visual R, crossed",-1.2067228248258694e-07,0.0,TDC > CCD,False
+MGOD,CCD_minus_TDC,"B(4,3,7)",Modulatory B,A1_L → A1_R,"auditory L, crossed",4.73666196948588e-08,0.0,CCD > TDC,False
+MGOD,CCD_minus_TDC,"B(2,4,7)",Modulatory B,A1_R → M1_R,"auditory L, crossed",-6.638333518457642e-08,0.0,TDC > CCD,False
+MGOD,CCD_minus_TDC,"B(1,3,8)",Modulatory B,A1_L → M1_L,"auditory R, crossed",0.3855874128429039,1.0,CCD > TDC,False
+MGOD,CCD_minus_TDC,"B(3,4,8)",Modulatory B,A1_R → A1_L,"auditory R, crossed",1.9427054651770437e-06,0.0,CCD > TDC,False
+MGOG,Mean,"A(1,1)",Intrinsic A,M1_L → M1_L,,-0.8199197526872466,1.0,TDC > CCD,True
+MGOG,Mean,"A(2,2)",Intrinsic A,M1_R → M1_R,,-1.3778810408109827,1.0,TDC > CCD,True
+MGOG,Mean,"A(1,3)",Intrinsic A,A1_L → M1_L,,4.25435312425804e-07,0.0,CCD > TDC,False
+MGOG,Mean,"A(3,3)",Intrinsic A,A1_L → A1_L,,0.16304823265609208,1.0,CCD > TDC,True
+MGOG,Mean,"A(2,4)",Intrinsic A,A1_R → M1_R,,-1.4619185002085652e-07,0.0,TDC > CCD,False
+MGOG,Mean,"A(4,4)",Intrinsic A,A1_R → A1_R,,-0.453436469835513,1.0,TDC > CCD,True
+MGOG,Mean,"A(1,5)",Intrinsic A,V1_L → M1_L,,-1.3126520410401605e-06,0.0,TDC > CCD,False
+MGOG,Mean,"A(5,5)",Intrinsic A,V1_L → V1_L,,-1.9889520545527473e-06,0.0,TDC > CCD,True
+MGOG,Mean,"A(2,6)",Intrinsic A,V1_R → M1_R,,-0.017477859626068747,0.47386814777334735,TDC > CCD,False
+MGOG,Mean,"A(6,6)",Intrinsic A,V1_R → V1_R,,-0.5770450319094431,1.0,TDC > CCD,True
+MGOG,Mean,"B(2,1,1)",Modulatory B,M1_L → M1_R,"visual L, uncrossed",8.363590708080916e-07,0.0,CCD > TDC,False
+MGOG,Mean,"B(1,5,1)",Modulatory B,V1_L → M1_L,"visual L, uncrossed",0.3929119926611623,1.0,CCD > TDC,False
+MGOG,Mean,"B(2,5,1)",Modulatory B,V1_L → M1_R,"visual L, uncrossed",-4.42475494717985e-07,0.0,TDC > CCD,False
+MGOG,Mean,"B(6,5,1)",Modulatory B,V1_L → V1_R,"visual L, uncrossed",6.248325467339019e-07,0.0,CCD > TDC,False
+MGOG,Mean,"B(2,6,1)",Modulatory B,V1_R → M1_R,"visual L, uncrossed",-1.269661599725474e-06,0.0,TDC > CCD,False
+MGOG,Mean,"B(1,2,2)",Modulatory B,M1_R → M1_L,"visual R, uncrossed",-1.2873882722882296e-06,0.0,TDC > CCD,False
+MGOG,Mean,"B(1,5,2)",Modulatory B,V1_L → M1_L,"visual R, uncrossed",4.400822309270563e-07,0.0,CCD > TDC,False
+MGOG,Mean,"B(1,6,2)",Modulatory B,V1_R → M1_L,"visual R, uncrossed",8.531256015088689e-07,0.0,CCD > TDC,False
+MGOG,Mean,"B(2,6,2)",Modulatory B,V1_R → M1_R,"visual R, uncrossed",1.1884996189731223e-06,0.0,CCD > TDC,False
+MGOG,Mean,"B(5,6,2)",Modulatory B,V1_R → V1_L,"visual R, uncrossed",-7.371238853216378e-07,0.0,TDC > CCD,False
+MGOG,Mean,"B(2,1,3)",Modulatory B,M1_L → M1_R,"auditory L, uncrossed",-1.9491211603406e-06,0.0,TDC > CCD,False
+MGOG,Mean,"B(1,3,3)",Modulatory B,A1_L → M1_L,"auditory L, uncrossed",1.1132562785631274e-06,0.0,CCD > TDC,False
+MGOG,Mean,"B(2,3,3)",Modulatory B,A1_L → M1_R,"auditory L, uncrossed",-0.20946980689690778,0.7059185098055627,TDC > CCD,False
+MGOG,Mean,"B(4,3,3)",Modulatory B,A1_L → A1_R,"auditory L, uncrossed",3.5947472654909707e-07,0.0,CCD > TDC,False
+MGOG,Mean,"B(2,4,3)",Modulatory B,A1_R → M1_R,"auditory L, uncrossed",1.252762267260484e-07,0.0,CCD > TDC,False
+MGOG,Mean,"B(1,2,4)",Modulatory B,M1_R → M1_L,"auditory R, uncrossed",-1.577895849602604e-07,0.0,TDC > CCD,False
+MGOG,Mean,"B(1,3,4)",Modulatory B,A1_L → M1_L,"auditory R, uncrossed",-1.1080086478858007e-06,0.0,TDC > CCD,False
+MGOG,Mean,"B(1,4,4)",Modulatory B,A1_R → M1_L,"auditory R, uncrossed",2.2686302216549495e-07,0.0,CCD > TDC,False
+MGOG,Mean,"B(2,4,4)",Modulatory B,A1_R → M1_R,"auditory R, uncrossed",8.034262150236375e-07,0.0,CCD > TDC,False
+MGOG,Mean,"B(3,4,4)",Modulatory B,A1_R → A1_L,"auditory R, uncrossed",7.73728089259831e-07,0.0,CCD > TDC,False
+MGOG,Mean,"B(6,5,5)",Modulatory B,V1_L → V1_R,"visual L, crossed",8.330487215492942e-07,0.0,CCD > TDC,False
+MGOG,Mean,"B(2,6,5)",Modulatory B,V1_R → M1_R,"visual L, crossed",4.184932527990191e-07,0.0,CCD > TDC,False
+MGOG,Mean,"B(1,5,6)",Modulatory B,V1_L → M1_L,"visual R, crossed",-3.1720437148357453e-07,0.0,TDC > CCD,False
+MGOG,Mean,"B(5,6,6)",Modulatory B,V1_R → V1_L,"visual R, crossed",1.015653792482119,1.0,CCD > TDC,False
+MGOG,Mean,"B(4,3,7)",Modulatory B,A1_L → A1_R,"auditory L, crossed",-2.7835163358507075e-07,0.0,TDC > CCD,False
+MGOG,Mean,"B(2,4,7)",Modulatory B,A1_R → M1_R,"auditory L, crossed",5.248000635804766e-07,0.0,CCD > TDC,False
+MGOG,Mean,"B(1,3,8)",Modulatory B,A1_L → M1_L,"auditory R, crossed",-6.895099486905734e-07,0.0,TDC > CCD,False
+MGOG,Mean,"B(3,4,8)",Modulatory B,A1_R → A1_L,"auditory R, crossed",-2.5810270446972427e-07,0.0,TDC > CCD,False
+MGOG,CCD_minus_TDC,"A(1,1)",Intrinsic A,M1_L → M1_L,,-4.1934046436113836e-07,0.0,TDC > CCD,True
+MGOG,CCD_minus_TDC,"A(2,2)",Intrinsic A,M1_R → M1_R,,0.03273768006514462,0.5178371375702552,CCD > TDC,True
+MGOG,CCD_minus_TDC,"A(1,3)",Intrinsic A,A1_L → M1_L,,5.65749288756087e-07,0.0,CCD > TDC,False
+MGOG,CCD_minus_TDC,"A(3,3)",Intrinsic A,A1_L → A1_L,,0.11970265205106918,1.0,CCD > TDC,True
+MGOG,CCD_minus_TDC,"A(2,4)",Intrinsic A,A1_R → M1_R,,8.484155060702346e-07,0.0,CCD > TDC,False
+MGOG,CCD_minus_TDC,"A(4,4)",Intrinsic A,A1_R → A1_R,,0.13271196880980976,1.0,CCD > TDC,True
+MGOG,CCD_minus_TDC,"A(1,5)",Intrinsic A,V1_L → M1_L,,-0.04766178001352454,0.8558892572357097,TDC > CCD,False
+MGOG,CCD_minus_TDC,"A(5,5)",Intrinsic A,V1_L → V1_L,,-0.042347681756581934,0.7197645761891233,TDC > CCD,True
+MGOG,CCD_minus_TDC,"A(2,6)",Intrinsic A,V1_R → M1_R,,-0.027860677677410486,0.641513642447938,TDC > CCD,False
+MGOG,CCD_minus_TDC,"A(6,6)",Intrinsic A,V1_R → V1_R,,0.11484944642800687,1.0,CCD > TDC,True
+MGOG,CCD_minus_TDC,"B(2,1,1)",Modulatory B,M1_L → M1_R,"visual L, uncrossed",-5.764096510353712e-07,0.0,TDC > CCD,False
+MGOG,CCD_minus_TDC,"B(1,5,1)",Modulatory B,V1_L → M1_L,"visual L, uncrossed",0.31404895573211006,1.0,CCD > TDC,False
+MGOG,CCD_minus_TDC,"B(2,5,1)",Modulatory B,V1_L → M1_R,"visual L, uncrossed",-1.001952858129803e-06,0.0,TDC > CCD,False
+MGOG,CCD_minus_TDC,"B(6,5,1)",Modulatory B,V1_L → V1_R,"visual L, uncrossed",3.5434498999192595e-07,0.0,CCD > TDC,False
+MGOG,CCD_minus_TDC,"B(2,6,1)",Modulatory B,V1_R → M1_R,"visual L, uncrossed",0.3626707020996354,1.0,CCD > TDC,False
+MGOG,CCD_minus_TDC,"B(1,2,2)",Modulatory B,M1_R → M1_L,"visual R, uncrossed",-4.877276607533802e-07,0.0,TDC > CCD,False
+MGOG,CCD_minus_TDC,"B(1,5,2)",Modulatory B,V1_L → M1_L,"visual R, uncrossed",-5.395129999882029e-07,0.0,TDC > CCD,False
+MGOG,CCD_minus_TDC,"B(1,6,2)",Modulatory B,V1_R → M1_L,"visual R, uncrossed",-4.783889419293978e-07,0.0,TDC > CCD,False
+MGOG,CCD_minus_TDC,"B(2,6,2)",Modulatory B,V1_R → M1_R,"visual R, uncrossed",6.10045981173232e-07,0.0,CCD > TDC,False
+MGOG,CCD_minus_TDC,"B(5,6,2)",Modulatory B,V1_R → V1_L,"visual R, uncrossed",2.598592396532382e-07,0.0,CCD > TDC,False
+MGOG,CCD_minus_TDC,"B(2,1,3)",Modulatory B,M1_L → M1_R,"auditory L, uncrossed",3.359873548664792e-07,0.0,CCD > TDC,False
+MGOG,CCD_minus_TDC,"B(1,3,3)",Modulatory B,A1_L → M1_L,"auditory L, uncrossed",-8.609794385621469e-07,0.0,TDC > CCD,False
+MGOG,CCD_minus_TDC,"B(2,3,3)",Modulatory B,A1_L → M1_R,"auditory L, uncrossed",0.20139873837083092,0.6885818019973261,CCD > TDC,False
+MGOG,CCD_minus_TDC,"B(4,3,3)",Modulatory B,A1_L → A1_R,"auditory L, uncrossed",-0.21822136123871128,0.8458376518756242,TDC > CCD,False
+MGOG,CCD_minus_TDC,"B(2,4,3)",Modulatory B,A1_R → M1_R,"auditory L, uncrossed",-0.3465475847725626,1.0,TDC > CCD,False
+MGOG,CCD_minus_TDC,"B(1,2,4)",Modulatory B,M1_R → M1_L,"auditory R, uncrossed",-3.147757683850392e-07,0.0,TDC > CCD,False
+MGOG,CCD_minus_TDC,"B(1,3,4)",Modulatory B,A1_L → M1_L,"auditory R, uncrossed",-1.5347785747934688e-06,0.0,TDC > CCD,False
+MGOG,CCD_minus_TDC,"B(1,4,4)",Modulatory B,A1_R → M1_L,"auditory R, uncrossed",3.128952822871378e-08,0.0,CCD > TDC,False
+MGOG,CCD_minus_TDC,"B(2,4,4)",Modulatory B,A1_R → M1_R,"auditory R, uncrossed",1.3519604389531355e-06,0.0,CCD > TDC,False
+MGOG,CCD_minus_TDC,"B(3,4,4)",Modulatory B,A1_R → A1_L,"auditory R, uncrossed",-3.284709692431898e-08,0.0,TDC > CCD,False
+MGOG,CCD_minus_TDC,"B(6,5,5)",Modulatory B,V1_L → V1_R,"visual L, crossed",3.8681960889839615e-07,0.0,CCD > TDC,False
+MGOG,CCD_minus_TDC,"B(2,6,5)",Modulatory B,V1_R → M1_R,"visual L, crossed",1.9390537229692567e-06,0.0,CCD > TDC,False
+MGOG,CCD_minus_TDC,"B(1,5,6)",Modulatory B,V1_L → M1_L,"visual R, crossed",-2.3169277381988916e-06,0.0,TDC > CCD,False
+MGOG,CCD_minus_TDC,"B(5,6,6)",Modulatory B,V1_R → V1_L,"visual R, crossed",-8.235735261750771e-07,0.0,TDC > CCD,False
+MGOG,CCD_minus_TDC,"B(4,3,7)",Modulatory B,A1_L → A1_R,"auditory L, crossed",1.315521732043036e-06,0.0,CCD > TDC,False
+MGOG,CCD_minus_TDC,"B(2,4,7)",Modulatory B,A1_R → M1_R,"auditory L, crossed",-4.456665830891224e-07,0.0,TDC > CCD,False
+MGOG,CCD_minus_TDC,"B(1,3,8)",Modulatory B,A1_L → M1_L,"auditory R, crossed",4.710322917869475e-07,0.0,CCD > TDC,False
+MGOG,CCD_minus_TDC,"B(3,4,8)",Modulatory B,A1_R → A1_L,"auditory R, crossed",-1.6677601771923754e-06,0.0,TDC > CCD,False

@@ -1,0 +1,28 @@
+Task,Design,Parameter,Kind,Connection,Condition,Estimate,Pp,Direction,SelfConnection
+MDOD,CCD_minus_TDC,"A(1,1)",Intrinsic A,M1_L → M1_L,,0.21836353767103114,1.0,CCD > TDC,True
+MDOD,CCD_minus_TDC,"A(2,2)",Intrinsic A,M1_R → M1_R,,0.3394382266720212,1.0,CCD > TDC,True
+MDOD,CCD_minus_TDC,"A(3,3)",Intrinsic A,A1_L → A1_L,,0.14777059539990897,1.0,CCD > TDC,True
+MDOD,CCD_minus_TDC,"A(4,4)",Intrinsic A,A1_R → A1_R,,-0.22298432356683692,1.0,TDC > CCD,True
+MDOD,CCD_minus_TDC,"A(5,5)",Intrinsic A,V1_L → V1_L,,0.25391919898517956,1.0,CCD > TDC,True
+MDOD,CCD_minus_TDC,"A(2,6)",Intrinsic A,V1_R → M1_R,,0.06435539208953153,1.0,CCD > TDC,False
+MDOD,CCD_minus_TDC,"B(2,6,2)",Modulatory B,V1_R → M1_R,"visual R, uncrossed",-0.28776036190563975,1.0,TDC > CCD,False
+MDOD,CCD_minus_TDC,"B(2,6,5)",Modulatory B,V1_R → M1_R,"visual L, crossed",-0.2507073719579041,0.9546138690208968,TDC > CCD,False
+MDOG,CCD_minus_TDC,"A(1,1)",Intrinsic A,M1_L → M1_L,,0.2991636737291952,1.0,CCD > TDC,True
+MDOG,CCD_minus_TDC,"A(2,4)",Intrinsic A,A1_R → M1_R,,-0.1067120181089794,0.9991657316097136,TDC > CCD,False
+MDOG,CCD_minus_TDC,"A(4,4)",Intrinsic A,A1_R → A1_R,,0.28510495557190685,1.0,CCD > TDC,True
+MDOG,CCD_minus_TDC,"B(5,6,2)",Modulatory B,V1_R → V1_L,"visual R, uncrossed",-0.5672305576892027,1.0,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(6,5,5)",Modulatory B,V1_L → V1_R,"visual L, crossed",-0.6069621823372006,0.9875054527763286,TDC > CCD,False
+MDOG,CCD_minus_TDC,"B(2,4,7)",Modulatory B,A1_R → M1_R,"auditory L, crossed",0.37282689524801227,0.9983659545527368,CCD > TDC,False
+MGOD,CCD_minus_TDC,"A(1,1)",Intrinsic A,M1_L → M1_L,,0.16542233239861076,0.9874035069347706,CCD > TDC,True
+MGOD,CCD_minus_TDC,"A(2,2)",Intrinsic A,M1_R → M1_R,,0.16297687435247996,1.0,CCD > TDC,True
+MGOD,CCD_minus_TDC,"A(1,3)",Intrinsic A,A1_L → M1_L,,-0.26879221080754867,1.0,TDC > CCD,False
+MGOD,CCD_minus_TDC,"A(5,5)",Intrinsic A,V1_L → V1_L,,0.19103475623357188,1.0,CCD > TDC,True
+MGOD,CCD_minus_TDC,"B(2,1,1)",Modulatory B,M1_L → M1_R,"visual L, uncrossed",-0.6055325986567119,1.0,TDC > CCD,False
+MGOD,CCD_minus_TDC,"B(2,6,1)",Modulatory B,V1_R → M1_R,"visual L, uncrossed",0.5909909250507862,1.0,CCD > TDC,False
+MGOD,CCD_minus_TDC,"B(1,3,8)",Modulatory B,A1_L → M1_L,"auditory R, crossed",0.3855874128429039,1.0,CCD > TDC,False
+MGOG,CCD_minus_TDC,"A(3,3)",Intrinsic A,A1_L → A1_L,,0.11970265205106918,1.0,CCD > TDC,True
+MGOG,CCD_minus_TDC,"A(4,4)",Intrinsic A,A1_R → A1_R,,0.13271196880980976,1.0,CCD > TDC,True
+MGOG,CCD_minus_TDC,"A(6,6)",Intrinsic A,V1_R → V1_R,,0.11484944642800687,1.0,CCD > TDC,True
+MGOG,CCD_minus_TDC,"B(1,5,1)",Modulatory B,V1_L → M1_L,"visual L, uncrossed",0.31404895573211006,1.0,CCD > TDC,False
+MGOG,CCD_minus_TDC,"B(2,6,1)",Modulatory B,V1_R → M1_R,"visual L, uncrossed",0.3626707020996354,1.0,CCD > TDC,False
+MGOG,CCD_minus_TDC,"B(2,4,3)",Modulatory B,A1_R → M1_R,"auditory L, uncrossed",-0.3465475847725626,1.0,TDC > CCD,False

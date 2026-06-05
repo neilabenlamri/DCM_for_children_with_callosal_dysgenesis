@@ -1,0 +1,9 @@
+Matrix,ConnectionClass,StrongerIn,Count
+Intrinsic A,Intra,CCD,13
+Intrinsic A,Intra,TDC,3
+Intrinsic A,Inter,CCD,0
+Intrinsic A,Inter,TDC,0
+Task-modulated B,Intra,CCD,5
+Task-modulated B,Intra,TDC,3
+Task-modulated B,Inter,CCD,0
+Task-modulated B,Inter,TDC,3

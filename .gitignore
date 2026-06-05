@@ -1,0 +1,35 @@
+# macOS / filesystem metadata
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local IDE / environments
+.idea/
+.vscode/
+.conda/
+.venv*/
+.mplconfig/
+
+# Large neuroimaging and MATLAB/SPM outputs
+*.nii
+*.nii.gz
+*.mat
+*.img
+*.hdr
+
+# Local scratch / generated presentation workspaces
+outputs/
+.current_presentation_workspace
+
+# Local notebook backups and ad hoc test artifacts
+*.backup*.ipynb
+DCM.backup_before_*.ipynb
+MDOG_roi_timeseries.csv
+activation.png
+design_matrix.png
+dcm_winner_schematic_sujet3.png
