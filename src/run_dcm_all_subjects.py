@@ -27,6 +27,8 @@ from pathlib import Path
 
 TASKS = ("MDOD", "MDOG", "MGOD", "MGOG")
 ROI_NAMES = ("M1_L", "M1_R", "A1_L", "A1_R", "V1_L", "V1_R")
+ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = ROOT.parent if ROOT.name == "src" else ROOT
 
 
 def resolve_data_root(requested_root: Path) -> Path:
@@ -72,7 +74,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--notebook",
         type=Path,
-        default=Path("DCM.ipynb"),
+        default=PROJECT_ROOT / "src" / "DCM.ipynb",
         help="Subject-level DCM notebook to execute.",
     )
     parser.add_argument(

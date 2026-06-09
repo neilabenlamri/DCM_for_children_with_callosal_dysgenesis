@@ -75,7 +75,7 @@ External software:
 
 - MATLAB
 - SPM12 on the MATLAB path
-- Jupyter/nbconvert for executing `DCM.ipynb`
+- Jupyter/nbconvert for executing `src/DCM.ipynb`
 
 The scripts try to resolve the cohort path automatically across macOS and Linux:
 
@@ -104,7 +104,7 @@ Linux example:
 cd "/media/lea/T7 Shield/PycharmProjects/MIPLAB" && python src/run_dcm_all_subjects.py --data-root "/media/lea/T7 Shield/derivatives_MNIcohort3" --run-matlab
 ```
 
-The script executes a parameterized copy of [`DCM.ipynb`](DCM.ipynb) for each
+The script executes a parameterized copy of [`src/DCM.ipynb`](src/DCM.ipynb) for each
 subject and writes subject-level outputs under:
 
 ```text
@@ -184,8 +184,8 @@ effect (`Pp >= 0.95`):
 
 ## Key scripts
 
-- [`DCM.ipynb`](DCM.ipynb): subject-level DCM pipeline
-- [`src/run_dcm_all_subjects.py`](src/run_dcm_all_subjects.py): execute `DCM.ipynb` across subjects
+- [`src/DCM.ipynb`](src/DCM.ipynb): subject-level DCM pipeline
+- [`src/run_dcm_all_subjects.py`](src/run_dcm_all_subjects.py): execute `src/DCM.ipynb` across subjects
 - [`src/dcm_multi_subject_comparison.py`](src/dcm_multi_subject_comparison.py): RFX BMS and family comparison
 - [`src/run_full_cohort_peb.py`](src/run_full_cohort_peb.py): launch PEB from Python
 - [`src/analyze_peb_results_v2.py`](src/analyze_peb_results_v2.py): decode PEB outputs
