@@ -157,31 +157,12 @@ To verify inputs without launching MATLAB:
 python run_full_cohort_peb.py --data-root "/Volumes/T7 Shield/derivatives_MNIcohort3" --out-dir group_peb_full_cohort --model SENSORY_RELAY__UNC_FLEX --verify-only
 ```
 
-## 4. Decode and plot PEB results
+## 4. Decode PEB results
 
 Decode the MATLAB/SPM PEB outputs:
 
 ```bash
 python analyze_peb_results_v2.py --peb-dir group_peb_full_cohort --model SENSORY_RELAY__UNC_FLEX --out-dir group_peb_full_cohort
-```
-
-Create the full-cohort effective-connectivity plot:
-
-```bash
-python plot_full_cohort_peb_connectivity.py --peb-dir group_peb_full_cohort --out-dir group_peb_full_cohort
-```
-
-Create the intra/inter-hemispheric PEB summary:
-
-```bash
-python plot_full_cohort_peb_intra_inter.py --peb-summary group_peb_full_cohort/peb_credible_group_effects.csv --out-dir group_peb_full_cohort
-```
-
-Create RFX BMS summary figures:
-
-```bash
-python plot_winning_architecture_group_full_cohort.py --comparison-dir group_dcm_comparison --out-dir figures
-python plot_winning_architecture_by_task_group.py --comparison-dir group_dcm_comparison --out-dir figures
 ```
 
 ## Reproduced full-cohort results
@@ -209,8 +190,6 @@ effect (`Pp >= 0.95`):
 - [`generate_peb_group_script.py`](generate_peb_group_script.py): generate MATLAB/SPM PEB scripts
 - [`run_full_cohort_peb.py`](run_full_cohort_peb.py): launch PEB from Python
 - [`analyze_peb_results_v2.py`](analyze_peb_results_v2.py): decode PEB outputs
-- [`plot_full_cohort_peb_connectivity.py`](plot_full_cohort_peb_connectivity.py): plot PEB EC effects
-- [`plot_full_cohort_peb_intra_inter.py`](plot_full_cohort_peb_intra_inter.py): summarize intra/inter effects
 
 ## Notes
 
