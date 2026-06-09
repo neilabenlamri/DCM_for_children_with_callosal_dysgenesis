@@ -89,19 +89,19 @@ You can always override the location with `--data-root`.
 First check which subjects are ready:
 
 ```bash
-python run_dcm_all_subjects.py --data-root "/Volumes/T7 Shield/derivatives_MNIcohort3" --dry-run
+python src/run_dcm_all_subjects.py --data-root "/Volumes/T7 Shield/derivatives_MNIcohort3" --dry-run
 ```
 
 Run all ready subjects and execute the MATLAB/SPM cells inside the notebook:
 
 ```bash
-python run_dcm_all_subjects.py --data-root "/Volumes/T7 Shield/derivatives_MNIcohort3" --run-matlab
+python src/run_dcm_all_subjects.py --data-root "/Volumes/T7 Shield/derivatives_MNIcohort3" --run-matlab
 ```
 
 Linux example:
 
 ```bash
-cd "/media/lea/T7 Shield/PycharmProjects/MIPLAB" && python run_dcm_all_subjects.py --data-root "/media/lea/T7 Shield/derivatives_MNIcohort3" --run-matlab
+cd "/media/lea/T7 Shield/PycharmProjects/MIPLAB" && python src/run_dcm_all_subjects.py --data-root "/media/lea/T7 Shield/derivatives_MNIcohort3" --run-matlab
 ```
 
 The script executes a parameterized copy of [`DCM.ipynb`](DCM.ipynb) for each
@@ -116,13 +116,13 @@ sub-XX/func/dcm_results/sub-XX/
 After all subject-level `F_values.mat` files are present, run:
 
 ```bash
-python dcm_multi_subject_comparison.py --data-root "/Volumes/T7 Shield/derivatives_MNIcohort3" --out-dir group_dcm_comparison
+python src/dcm_multi_subject_comparison.py --data-root "/Volumes/T7 Shield/derivatives_MNIcohort3" --out-dir group_dcm_comparison
 ```
 
 Linux example:
 
 ```bash
-cd "/media/lea/T7 Shield/PycharmProjects/MIPLAB" && python dcm_multi_subject_comparison.py --data-root "/media/lea/T7 Shield/derivatives_MNIcohort3" --out-dir group_dcm_comparison
+cd "/media/lea/T7 Shield/PycharmProjects/MIPLAB" && python src/dcm_multi_subject_comparison.py --data-root "/media/lea/T7 Shield/derivatives_MNIcohort3" --out-dir group_dcm_comparison
 ```
 
 This creates model-level and family-level RFX BMS summaries in
@@ -142,19 +142,19 @@ MATLAB/SPM PEB script.
 macOS example:
 
 ```bash
-python run_full_cohort_peb.py --data-root "/Volumes/T7 Shield/derivatives_MNIcohort3" --out-dir group_peb_full_cohort --model SENSORY_RELAY__UNC_FLEX --matlab-cmd "/Applications/MATLAB_R2025b.app/bin/matlab" --spm-path "$HOME/spm12"
+python src/run_full_cohort_peb.py --data-root "/Volumes/T7 Shield/derivatives_MNIcohort3" --out-dir group_peb_full_cohort --model SENSORY_RELAY__UNC_FLEX --matlab-cmd "/Applications/MATLAB_R2025b.app/bin/matlab" --spm-path "$HOME/spm12"
 ```
 
 Linux example:
 
 ```bash
-cd "/media/lea/T7 Shield/PycharmProjects/MIPLAB" && python run_full_cohort_peb.py --data-root "/media/lea/T7 Shield/derivatives_MNIcohort3" --out-dir group_peb_full_cohort --model SENSORY_RELAY__UNC_FLEX --matlab-cmd "/home/lea/MATLAB/R2025b/bin/matlab" --spm-path "/home/lea/MATLAB/spm"
+cd "/media/lea/T7 Shield/PycharmProjects/MIPLAB" && python src/run_full_cohort_peb.py --data-root "/media/lea/T7 Shield/derivatives_MNIcohort3" --out-dir group_peb_full_cohort --model SENSORY_RELAY__UNC_FLEX --matlab-cmd "/home/lea/MATLAB/R2025b/bin/matlab" --spm-path "/home/lea/MATLAB/spm"
 ```
 
 To verify inputs without launching MATLAB:
 
 ```bash
-python run_full_cohort_peb.py --data-root "/Volumes/T7 Shield/derivatives_MNIcohort3" --out-dir group_peb_full_cohort --model SENSORY_RELAY__UNC_FLEX --verify-only
+python src/run_full_cohort_peb.py --data-root "/Volumes/T7 Shield/derivatives_MNIcohort3" --out-dir group_peb_full_cohort --model SENSORY_RELAY__UNC_FLEX --verify-only
 ```
 
 ## 4. Decode PEB results
@@ -162,7 +162,7 @@ python run_full_cohort_peb.py --data-root "/Volumes/T7 Shield/derivatives_MNIcoh
 Decode the MATLAB/SPM PEB outputs:
 
 ```bash
-python analyze_peb_results_v2.py --peb-dir group_peb_full_cohort --model SENSORY_RELAY__UNC_FLEX --out-dir group_peb_full_cohort
+python src/analyze_peb_results_v2.py --peb-dir group_peb_full_cohort --model SENSORY_RELAY__UNC_FLEX --out-dir group_peb_full_cohort
 ```
 
 ## Reproduced full-cohort results
@@ -185,11 +185,10 @@ effect (`Pp >= 0.95`):
 ## Key scripts
 
 - [`DCM.ipynb`](DCM.ipynb): subject-level DCM pipeline
-- [`run_dcm_all_subjects.py`](run_dcm_all_subjects.py): execute `DCM.ipynb` across subjects
-- [`dcm_multi_subject_comparison.py`](dcm_multi_subject_comparison.py): RFX BMS and family comparison
-- [`generate_peb_group_script.py`](generate_peb_group_script.py): generate MATLAB/SPM PEB scripts
-- [`run_full_cohort_peb.py`](run_full_cohort_peb.py): launch PEB from Python
-- [`analyze_peb_results_v2.py`](analyze_peb_results_v2.py): decode PEB outputs
+- [`src/run_dcm_all_subjects.py`](src/run_dcm_all_subjects.py): execute `DCM.ipynb` across subjects
+- [`src/dcm_multi_subject_comparison.py`](src/dcm_multi_subject_comparison.py): RFX BMS and family comparison
+- [`src/run_full_cohort_peb.py`](src/run_full_cohort_peb.py): launch PEB from Python
+- [`src/analyze_peb_results_v2.py`](src/analyze_peb_results_v2.py): decode PEB outputs
 
 ## Notes
 

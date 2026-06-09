@@ -29,39 +29,33 @@ This allows testing of:
 
 ## Files Generated
 
-1. **Input data**: `group_peb/peb_inputs_SENSORY_RELAY__UNC_FLEX.csv`
+1. **Input data**: `group_peb_full_cohort/peb_inputs_SENSORY_RELAY__UNC_FLEX.csv`
    - 104 rows (all subjects × tasks)
    - All DCM files verified to exist
 
-2. **MATLAB script**: `group_peb/run_peb_SENSORY_RELAY__UNC_FLEX.m`
+2. **MATLAB script**: `group_peb_full_cohort/run_peb_SENSORY_RELAY__UNC_FLEX.m`
    - Runs PEB for each of the 4 tasks
    - Tests group differences in A and B parameters
 
 ## How to Run PEB
 
-### Option 1: In MATLAB (Recommended)
-
-```matlab
-% Start MATLAB in the project directory
-cd '/media/lea/T7 Shield/PycharmProjects/MIPLAB'
-
-% Add SPM12 to path (if not already configured)
-addpath('/path/to/spm12')
-
-% Run the PEB analysis
-run('group_peb/run_peb_SENSORY_RELAY__UNC_FLEX.m')
-```
-
-### Option 2: MATLAB Batch Mode
+### Option 1: From Python
 
 ```bash
-matlab -nodesktop -nosplash -r "run('/media/lea/T7 Shield/PycharmProjects/MIPLAB/group_peb/run_peb_SENSORY_RELAY__UNC_FLEX.m')"
+python src/run_full_cohort_peb.py --data-root "/Volumes/T7 Shield/derivatives_MNIcohort3" --out-dir group_peb_full_cohort --model SENSORY_RELAY__UNC_FLEX --matlab-cmd "/Applications/MATLAB_R2025b.app/bin/matlab" --spm-path "$HOME/spm12"
 ```
 
-### Option 3: From VS Code Terminal
+Linux example:
 
-1. Open VS Code in the project directory
-2. Run the MATLAB command above or open the `.m` file and execute
+```bash
+cd "/media/lea/T7 Shield/PycharmProjects/MIPLAB" && python src/run_full_cohort_peb.py --data-root "/media/lea/T7 Shield/derivatives_MNIcohort3" --out-dir group_peb_full_cohort --model SENSORY_RELAY__UNC_FLEX --matlab-cmd "/home/lea/MATLAB/R2025b/bin/matlab" --spm-path "/home/lea/MATLAB/spm"
+```
+
+To verify inputs without launching MATLAB:
+
+```bash
+python src/run_full_cohort_peb.py --data-root "/Volumes/T7 Shield/derivatives_MNIcohort3" --out-dir group_peb_full_cohort --model SENSORY_RELAY__UNC_FLEX --verify-only
+```
 
 ## Expected Outputs
 
